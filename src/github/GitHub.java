@@ -5,6 +5,8 @@
  */
 package github;
 
+import java.util.ArrayList;
+import java.util.Scanner;
 /**
  *
  * @author Ahmed Diaa
@@ -16,6 +18,10 @@ public class GitHub {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int x = (int)(Math.random()*20+1);
+        int y = (int)(Math.random()*20+1);
+        int z = x + y;
+        
     }
     
 }
