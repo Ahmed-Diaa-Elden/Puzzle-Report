@@ -26,6 +26,9 @@ public class GitHub {
         System.out.println("What is "+ x +" + "+ y +" Equal ?");
         System.out.println("*Note :- If you entered the number zero the program will end");
         int ans = input.nextInt();
+        while(ans!=0){
+        }
+        }
     }
     
 }
