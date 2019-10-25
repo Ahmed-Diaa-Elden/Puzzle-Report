@@ -21,7 +21,11 @@ public class GitHub {
         int x = (int)(Math.random()*20+1);
         int y = (int)(Math.random()*20+1);
         int z = x + y;
-        
+        Scanner input = new Scanner (System.in);
+        ArrayList<Integer> st = new ArrayList<>();
+        System.out.println("What is "+ x +" + "+ y +" Equal ?");
+        System.out.println("*Note :- If you entered the number zero the program will end");
+        int ans = input.nextInt();
     }
     
 }
