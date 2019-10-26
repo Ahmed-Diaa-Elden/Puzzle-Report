@@ -39,8 +39,17 @@ public class GitHub {
                 ans = input.nextInt();
         }
         }
-        }
         
+        System.out.println("You got it! \n");
+        st.clear();
+        x = (int)(Math.random()*20+1);
+        y = (int)(Math.random()*20+1);
+        z = x + y;
+        System.out.println("What is "+ x +" + "+ y +" Equal ?");
+        System.out.println("*Note :- If you entered the number zero the program will end");
+        ans = input.nextInt();
+        }
+        System.out.println("The puzzle ended ");
         
         
     }
