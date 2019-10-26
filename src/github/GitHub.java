@@ -27,8 +27,22 @@ public class GitHub {
         System.out.println("*Note :- If you entered the number zero the program will end");
         int ans = input.nextInt();
         while(ans!=0){
+        while(ans!=z ){
+            if (st.contains(ans)){
+                System.out.println("You already entered "+ ans);
+                System.out.println("Wrong answer. Try again. What is "+ x +" + " + y + " Equal ?");
+                ans = input.nextInt();
+            }
+            else{
+                System.out.println("Wrong answer. Try again. What is "+ x +" + " + y + " Equal ?");
+                st.add(ans);
+                ans = input.nextInt();
         }
         }
+        }
+        
+        
+        
     }
     
 }
